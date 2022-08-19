@@ -1,0 +1,185 @@
+/* import fonts  from fonts.css file*/
+@import url('font.css');
+@import url('/partials/variables.css');
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.header_area .main_menu .navbar .navbar-brand {
+    padding: 0 20rem 0 0;
+    font-family: var(--silkscreen);
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.header_area .main_menu .navbar {
+    padding: 1rem 10rem;
+}
+
+.header_area .main_menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--silkscreen);
+    padding: 1rem 2rem;
+    color: var(--title-color);
+}
+
+.header_area .main_menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main_menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*========================== End Navigation ==========================*/
+
+/*========================== Start Banner ==========================*/
+.site-main .site-banner .site-title {
+    padding-top: 9%;
+    padding-bottom: 20%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h5 {
+    font-family: var(--space_mono);
+}
+
+.site-main .site-banner .site-title h5::after {
+    content: "";
+    height: 2px;
+    width: 50vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.site-main .site-banner .site-title .name {
+    font-family: var(--dynapuff);
+    color: rgb(166, 97, 231);
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title .extra {
+    font-family: var(--silkscreen);
+    color: burlywood;
+    font-size: 3rem;
+}
+
+.site-main .site-banner .site-title .container .social a>i {
+    font-size: 32px;
+    padding: 1rem;
+    color: black;
+}
+
+.site-main .site-banner .site-title .container .social a>i:hover {
+    cursor: default;
+    transform: translateY(5px);
+    color: blueviolet;
+}
+
+
+.site-main .site-banner .site-title .myintro {
+    font-family: var(--baloo_2);
+    font-size: 1.9rem;
+}
+
+.site-main .site-banner .site-title .button {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .site-banner .site-title .button:hover {
+    background: blueviolet;
+    color: whitesmoke;
+    background-clip: padding-box;
+}
+
+.site-main .site-banner .site-title .button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: black;
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+/*========================== End Banner ==========================*/
+
+/*========================== Start About ==========================*/
+.site-main .about-area .site-title {
+    padding-bottom: 10%;
+    font-weight: 500;
+}
+
+.site-main .about-area .site-title h2 {
+    font: normal bold 49px/60px var(--dynapuff);
+    letter-spacing: 4px;
+}
+
+.site-main .about-area .site-title h2 .abt-me {
+    font-family: var(--dynapuff);
+    color: blueviolet;
+}
+
+.site-main .about-area .site-title h2::after {
+    content: "";
+    height: 2px;
+    width: 30vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.site-main .about-area .site-title .paragraph>p {
+    font-family: var(--baloo_2);
+    font-size: 20px;
+    /* padding: 1rem 0 0 5rem; */
+}
+
+.site-main .about-area .innerpara bold {
+    font-family: var(--dynapuff);
+    color: blueviolet;
+}
+
+.site-main .about-area .tech ul {
+    font-family: var(--dynapuff);
+    font-size: 17px;
+    list-style: none;
+    padding-right: 8rem;
+    color: blueviolet;
+}
+
+.site-main .about-area .tech ul li::before {
+
+    content: "\2022";
+    color: crimson;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -1em;
+}
+
+/*========================== End About ==========================*/

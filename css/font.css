@@ -1,0 +1,26 @@
+/* @font-face*/
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'DynaPuff';
+    src: url('/fonts/DynaPuff/static/DynaPuff/DynaPuff-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Silkscreen';
+    src: url('/fonts/Silkscreen/Silkscreen-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Space_Mono';
+    src: url('/fonts/Space_Mono/SpaceMono-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Baloo_2';
+    src: url('/fonts/Baloo_2/static/Baloo2-Regular.ttf');
+}
