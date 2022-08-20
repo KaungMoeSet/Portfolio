@@ -2,25 +2,19 @@
 @import url('font.css');
 @import url('/partials/variables.css');
 
-.scrolled-down {
-    transform: translateY(-100%);
-    transition: all 0.3s ease-in-out;
-}
-
-.scrolled-up {
-    transform: translateY(0);
-    transition: all 0.3s ease-in-out;
-}
-
 .header_area .main_menu .navbar .navbar-brand {
-    padding: 0 20rem 0 0;
+    padding: 0 0 0 3rem;
     font-family: var(--silkscreen);
     font-size: 25px;
     color: blueviolet;
 }
+.header_area .main_menu{
+    padding-bottom: 7rem;
+}
 
 .header_area .main_menu .navbar {
-    padding: 1rem 10rem;
+    padding: 1rem 0;
+    box-shadow: var(--box-shadow);
 }
 
 .header_area .main_menu .nav-item .nav-link {
@@ -47,7 +41,6 @@
 
 /*========================== Start Banner ==========================*/
 .site-main .site-banner .site-title {
-    padding-top: 9%;
     padding-bottom: 20%;
     font-weight: 500;
 }
@@ -125,7 +118,6 @@
     z-index: -1;
     border-radius: 4px;
 }
-
 /*========================== End Banner ==========================*/
 
 /*========================== Start About ==========================*/
@@ -164,15 +156,13 @@
     color: blueviolet;
 }
 
-.site-main .about-area .tech ul {
+.site-main .about-area .paragraph .tech-skill ul {
     font-family: var(--dynapuff);
     font-size: 17px;
-    list-style: none;
-    padding-right: 8rem;
     color: blueviolet;
 }
 
-.site-main .about-area .tech ul li::before {
+.site-main .about-area .paragraph .tech-skill ul li::before {
 
     content: "\2022";
     color: crimson;
