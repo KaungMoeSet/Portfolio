@@ -2,22 +2,19 @@
 @import url('font.css');
 @import url('/partials/variables.css');
 
-.header_area .main_menu .navbar .navbar-brand {
+.navbar .navbar-brand {
     padding: 0 0 0 3rem;
     font-family: var(--silkscreen);
     font-size: 25px;
     color: blueviolet;
 }
-.header_area .main_menu{
-    padding-bottom: 7rem;
-}
 
-.header_area .main_menu .navbar {
+.main_menu .navbar {
     padding: 1rem 0;
     box-shadow: var(--box-shadow);
 }
 
-.header_area .main_menu .nav-item .nav-link {
+.main_menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--silkscreen);
     padding: 1rem 2rem;
     color: var(--title-color);
@@ -40,9 +37,14 @@
 /*========================== End Navigation ==========================*/
 
 /*========================== Start Banner ==========================*/
-.site-main .site-banner .site-title {
-    padding-bottom: 20%;
-    font-weight: 500;
+.site-main .full-height{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 85px;
+    padding-bottom: 80px;
 }
 
 .site-main .site-banner .site-title h5 {
@@ -121,11 +123,6 @@
 /*========================== End Banner ==========================*/
 
 /*========================== Start About ==========================*/
-.site-main .about-area .site-title {
-    padding-bottom: 10%;
-    font-weight: 500;
-}
-
 .site-main .about-area .site-title h2 {
     font: normal bold 49px/60px var(--dynapuff);
     letter-spacing: 4px;
