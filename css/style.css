@@ -160,7 +160,6 @@
 }
 
 .site-main .about-area .paragraph .tech-skill ul li::before {
-
     content: "\2022";
     color: crimson;
     font-weight: bold;
@@ -168,5 +167,65 @@
     width: 2em;
     margin-left: -1em;
 }
-
 /*========================== End About ==========================*/
+
+/*========================== Start Portfolio ==========================*/
+.site-main .portfolio-area .site-title h2 {
+    color: blueviolet;
+    font: normal bold 50px var(--dynapuff);
+    letter-spacing: 4px;
+    padding-bottom: 2rem;
+}
+
+.site-main .portfolio-area .site-title h2::after {
+    content: "";
+    height: 2px;
+    width: 30vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.site-main .portfolio-area .site-title ul .element:hover {
+    cursor: default;
+    transform: translateY(-10px);
+    border-color: blueviolet;
+}
+
+.site-main .portfolio-area .site-title ul .element:hover > .project-inner h3 {
+    color: blueviolet;
+}
+
+.site-main .portfolio-area .project-inner h3 {
+    font-family: var(--baloo_2);  
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.site-main .portfolio-area .project-inner .project-description {
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 1.5rem;
+}
+
+.site-main .portfolio-area .project-inner .folder i{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.site-main .portfolio-area .project-top a>i {
+    font-size: 30px;
+    color: black;
+}
+
+.site-main .portfolio-area .project-top a>i:hover {
+    color: blueviolet;
+}
+
+.site-main .portfolio-area .site-title footer ul li {
+    font-family: var(--dynapuff);
+    font-size: 17px;
+    color: blueviolet;
+}
+/*========================== End Portfolio ==========================*/
