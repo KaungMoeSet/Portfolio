@@ -282,6 +282,16 @@
     padding-right: 10px;
 }
 
+.site-main .contact-area .site-title .right-contact .error{
+    color: red;
+}
+.site-main .contact-area .site-title .right-contact .error-border{
+    border-bottom: 1px solid red;
+}
+#success{
+    color: #28a745;
+}
+
 .site-main .contact-area .site-title .social a>i {
     font-size: 32px;
     padding: .5rem;
